@@ -1,0 +1,10 @@
+Algorithm
+Step 1: Initialize the edge set E=NULL, for new
+Step 2: Consider a complete graph of N-1 Edges and having set G*=(V*, E*) respec.
+Step 3: Loop: N-1
+Step 4: Generate edges (u,v) from from E*
+Step 5: If ((u!=v)) && (u,v) belongs to {1.n} && (u,v)not present in E
+Step 6: E=E U {u,v} in G
+Step 7: If G(V,E) has no cycle Goto Step 3
+Step 8: Else discard G Goto Step 1
+Step 9: Once G is obtained, find number of nodes, diameters, degrees for graphs of different N
